@@ -1,0 +1,54 @@
+In C programming, the basic arithmetic operations are performed using the following operators:
+
+    Addition (+): Adds two values and returns the sum.
+
+Example:
+
+c
+
+int a = 10;
+int b = 20;
+int c = a + b; // c will be 30
+
+    Subtraction (-): Subtracts one value from another and returns the difference.
+
+Example:
+
+c
+
+int a = 20;
+int b = 10;
+int c = a - b; // c will be 10
+
+    Multiplication (*): Multiplies two values and returns the product.
+
+Example:
+
+c
+
+int a = 5;
+int b = 4;
+int c = a * b; // c will be 20
+
+    Division (/): Divides one value by another and returns the quotient.
+
+Example:
+
+c
+
+int a = 20;
+int b = 5;
+int c = a / b; // c will be 4
+
+    Modulus (%): Divides one value by another and returns the remainder.
+
+Example:
+
+c
+
+int a = 20;
+int b = 3;
+int c = a % b; // c will be 2
+
+These arithmetic operators can be used with both integer and floating-point values.
+

@@ -1,0 +1,46 @@
+In C, control structures are constructs that allow you to control the flow of your program based on certain conditions or criteria. There are three main types of control structures in C:
+
+    Conditional statements:
+        if statement: Executes a block of code if a specified condition is true.
+        else statement: Executes a block of code if the if condition is false.
+        else if statement: Executes a block of code if a second specified condition is true.
+        switch statement: Executes a block of code based on a variable's value.
+
+    Loops:
+        for loop: Repeats a block of code a specified number of times.
+        while loop: Repeats a block of code as long as a specified condition is true.
+        do-while loop: Repeats a block of code at least once and then continues repeating as long as a specified condition is true.
+
+    Jump statements:
+        break statement: Terminates the current loop or switch statement and transfers control to the statement immediately following it.
+        continue statement: Skips the current iteration of a loop and continues with the next iteration.
+        goto statement: Transfers control to a labeled statement in your program.
+
+Here's an example that uses conditional statements and a loop:
+
+c
+
+#include <stdio.h>
+
+int main() {
+    int num = 5;
+    if (num > 0) {
+        printf("%d is a positive number\n", num);
+    } else if (num < 0) {
+        printf("%d is a negative number\n", num);
+    } else {
+        printf("%d is neither positive nor negative\n", num);
+    }
+
+    int i;
+    for (i = 1; i <= 10; i++) {
+        if (i == 5) {
+            continue;
+        }
+        printf("%d ", i);
+    }
+    printf("\n");
+    return 0;
+}
+
+In this example, we use an if-else statement to determine whether a number is positive, negative, or neither. We then use a for loop to print the numbers 1 through 10, except for the number 5, which we skip using the continue statement.
